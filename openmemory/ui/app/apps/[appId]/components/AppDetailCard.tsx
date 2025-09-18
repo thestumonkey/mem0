@@ -59,7 +59,7 @@ const AppDetailCard = ({
                 <div className="w-6 h-6 rounded-full bg-zinc-700 flex items-center justify-center overflow-hidden">
                   <Image
                     src={appConfig.iconImage}
-                    alt={appConfig.name}
+                    alt={app.name}
                     width={40}
                     height={40}
                   />
@@ -71,7 +71,7 @@ const AppDetailCard = ({
               </div>
             )}
           </div>
-          <h2 className="text-md font-semibold">{appConfig.name}</h2>
+          <h2 className="text-md font-semibold">{app.name}</h2>
         </div>
 
         <div className="space-y-4 p-3">
